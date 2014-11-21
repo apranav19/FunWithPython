@@ -88,7 +88,6 @@ def merge_sort(data):
 	Given 2 lists, this function merges 2 lists and returns a sorted merged list
 '''
 def merge(data, left, right):
-
 	left_ctr = right_ctr = tot_ctr = 0
 
 	while left_ctr < len(left) and right_ctr < len(right):
